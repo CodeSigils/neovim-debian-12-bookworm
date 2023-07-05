@@ -1,0 +1,10 @@
+Architecture: amd64
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Description: Vim-fork focused on extensibility and usability.
+Maintainer: Neovim.io
+Package: neovim
+Priority: optional
+Section: devel
+Version: 0.9.1
+Installed-Size: 42009
+
