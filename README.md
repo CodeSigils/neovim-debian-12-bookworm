@@ -2,7 +2,17 @@
 
 Neovim [stable - 0.9.1](https://github.com/neovim/neovim/releases/tag/v0.9.1) version, [compiled for debian with cpack](https://github.com/neovim/neovim/wiki/Building-Neovim) using the clang/llvm stack from the [official neovim repo](https://github.com/neovim/neovim).
 
-Disclaimer: This package was build for testing purposes.
+Disclaimer: This version was compiled for testing purposes. If nvim-treesitter package throughs errors on startup add the following on your lazy/init.lua:
+
+```lua
+-- For treesitter compilation problem:
+-- You can force to use another compiler with require 'nvim-treesitter.install'.compilers = {"gcc"}
+-- Available compilers: "CC", "cc", "gcc", "clang", "cl", "zig"
+require('nvim-treesitter.install').compilers={"clang"}
+require('nvim-treesitter.configs').setup {
+ -- .../
+}
+```
 
 Get it with:
 
