@@ -2,7 +2,7 @@
 
 Neovim [stable - 0.9.1](https://github.com/neovim/neovim/releases/tag/v0.9.1) version, [compiled for debian with cpack](https://github.com/neovim/neovim/wiki/Building-Neovim) using the [clang/llvm](https://clang.llvm.org/) stack from the [official neovim repo](https://github.com/neovim/neovim).
 
-Disclaimer: This version was compiled for testing purposes - mainly to observe performance improvements against the GNU Compiler Collection (GCC). 
+Disclaimer: This version was compiled for testing purposes - mainly to observe any performance improvements against the GNU Compiler Collection (GCC). 
 
 Warning: If nvim-treesitter package throughs errors on startup the solution is simple. 
 Add the following on your lazy/init.lua:
