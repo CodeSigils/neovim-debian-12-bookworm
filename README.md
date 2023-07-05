@@ -32,8 +32,8 @@ Install it with:
 
 ## Prerequisites versions
 
-- ninja-build: 1.11.1
-- gettext (GNU gettext-runtime): 0.21
+- [ninja-build](https://ninja-build.org/): 1.11.1
+- [gettext](https://www.gnu.org/software/gettext/) (GNU gettext-runtime): 0.21
 - [cmake](https://cmake.org/) version 3.25.1 - CMake suite maintained and supported by Kitware (kitware.com/cmake).
 - [unzip: 6.00](https://infozip.sourceforge.net/UnZip.html#Release) maintained by Christian Spieler.
 - [Lua 5.4.4](https://www.lua.org/manual/5.4/) Copyright (C) 1994-2022 Lua.org, PUC-Rio
