@@ -24,8 +24,7 @@ Install it with:
 
 - ninja-build: 1.11.1
 - gettext (GNU gettext-runtime): 0.21
-- cmake version 3.25.1
-- CMake suite maintained and supported by Kitware (kitware.com/cmake).
+- cmake version 3.25.1 - CMake suite maintained and supported by Kitware (kitware.com/cmake).
 - unzip: 6.00
 - Lua 5.4.4  Copyright (C) 1994-2022 Lua.org, PUC-Rio
 - curl 7.88.1 (x86_64-pc-linux-gnu) libcurl/7.88.1 OpenSSL/3.0.9 zlib/1.2.13 brotli/1.0.9
