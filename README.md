@@ -4,6 +4,14 @@ Neovim [stable - 0.9.1](https://github.com/neovim/neovim/releases/tag/v0.9.1) ve
 
 Disclaimer: This version was compiled for testing purposes - mainly to observe any performance improvements against the GNU Compiler Collection (GCC). 
 
+Get it with:
+
+`wget https://github.com/CodeSigils/neovim-debian-12-bookworm/raw/main/nvim-linux64.deb`
+
+Install it with:
+
+`sudo dpkg -i nvim-linux64.deb`
+
 Warning: If nvim-treesitter package throughs errors on startup the solution is simple. 
 Add the following on your lazy/init.lua:
 
@@ -16,14 +24,6 @@ require('nvim-treesitter.configs').setup {
  -- .../
 }
 ```
-
-Get it with:
-
-`wget https://github.com/CodeSigils/neovim-debian-12-bookworm/raw/main/nvim-linux64.deb`
-
-Install it with:
-
-`sudo dpkg -i nvim-linux64.deb`
 
 ## Compilation details
 
