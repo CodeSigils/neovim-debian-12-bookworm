@@ -1,10 +1,15 @@
 # NVIM latest stable - 0.9.1 for Debian 12 testing (bookworm)
 
-Neovim stable [builded for debian with cpack](https://github.com/neovim/neovim/wiki/Building-Neovim) using the clang/llvm stack from the [official neovim repo](https://github.com/neovim/neovim).
+Neovim stable [compiled for debian with cpack](https://github.com/neovim/neovim/wiki/Building-Neovim) using the clang/llvm stack from the [official neovim repo](https://github.com/neovim/neovim).
 
-Disclaimer: This package was build ofr testing purposes.
+Disclaimer: This package was build for testing purposes.
 
-Install with:
+Get it with:
+
+`wget https://github.com/CodeSigils/neovim-debian-12-bookworm/raw/main/nvim-linux64.deb`
+
+Install it with:
+
 `sudo dpkg -i nvim-linux64.deb`
 
 ## Compilation details
