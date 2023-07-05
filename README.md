@@ -7,7 +7,7 @@ Disclaimer: This version was compiled for testing purposes. If nvim-treesitter p
 ```lua
 -- For treesitter compilation problem:
 -- You can force to use another compiler with require 'nvim-treesitter.install'.compilers = {"gcc"}
--- Available compilers: "CC", "cc", "gcc", "clang", "cl", "zig"
+-- Available compiler values: "CC", "cc", "gcc", "clang", "cl", "zig"
 require('nvim-treesitter.install').compilers={"clang"}
 require('nvim-treesitter.configs').setup {
  -- .../
