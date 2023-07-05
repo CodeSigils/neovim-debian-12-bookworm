@@ -1,6 +1,6 @@
 # NVIM latest stable - 0.9.1 for Debian 12 testing (bookworm)
 
-Neovim [stable - 0.9.1](https://github.com/neovim/neovim/releases/tag/v0.9.1) [compiled for debian with cpack](https://github.com/neovim/neovim/wiki/Building-Neovim) using the clang/llvm stack from the [official neovim repo](https://github.com/neovim/neovim).
+Neovim [stable - 0.9.1](https://github.com/neovim/neovim/releases/tag/v0.9.1) version, [compiled for debian with cpack](https://github.com/neovim/neovim/wiki/Building-Neovim) using the clang/llvm stack from the [official neovim repo](https://github.com/neovim/neovim).
 
 Disclaimer: This package was build for testing purposes.
 
