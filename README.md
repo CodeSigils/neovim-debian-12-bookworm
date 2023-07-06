@@ -13,7 +13,7 @@ Install it with:
 `sudo dpkg -i nvim-linux64.deb`
 
 Warning: If nvim-treesitter package throughs errors on startup the solution is simple. 
-Add the following on your lazy/init.lua:
+Add the following on your tree-sitter setup:
 
 ```lua
 -- For treesitter compilation problem:
